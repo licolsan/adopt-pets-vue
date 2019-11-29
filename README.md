@@ -1,6 +1,26 @@
-# adopt-pets-vue
+# Pets adoption
 
-## Project setup
+## Project setup with docker
+
+### Setting up network and build images
+
+```
+make setup
+```
+
+### For developer environment
+
+```
+make up-dev
+```
+
+### For production environment
+
+```
+make up-prod
+```
+
+## Project setup natively
 ```
 yarn install
 ```
