@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web_app:
+    build:
+      context: .
+      dockerfile: ./docker/prod.Dockerfile
+    image: vue_adopt_pets:prod
+    container_name: vue_adopt_pets
+    ports:
+      - 5000:80
+    tty: true
+
+networks:
+  default:
+    external:
+      name: vue-learning-network

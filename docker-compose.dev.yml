@@ -4,7 +4,7 @@ services:
   web_app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./docker/dev.Dockerfile
     image: vue_adopt_pets:dev
     container_name: vue_adopt_pets
     ports:
