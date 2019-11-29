@@ -4,5 +4,8 @@ export default {
   },
   getAllCats(state) {
     return state.cats
+  },
+  getAllDogs(state) {
+    return state.dogs
   }
 }
