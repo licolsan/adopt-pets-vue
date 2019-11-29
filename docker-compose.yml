@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  web_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vue_adopt_pets:dev
+    container_name: vue_adopt_pets
+    ports:
+      - 3000:3000
+    tty: true
+    volumes:
+      - ./:/usr/src/app
+    command: 'yarn serve --port 3000'
+
+networks:
+  default:
+    external:
+      name: vue-learning-network
