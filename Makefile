@@ -7,7 +7,6 @@ setup:
 	${DC-network} ls | grep vue-learning-network > /dev/null || ${DC-network} create vue-learning-network
 	${DC-dev} build
 	${DC-prod} build
-# docker network rm vue-learning-network
 
 # For development environment
 start-dev:
