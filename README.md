@@ -42,3 +42,17 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Screen shots
+
+### Home page
+
+![Home page image](https://res.cloudinary.com/rails-licolsan-cloud/image/upload/v1575012377/git/home_page.png)
+
+### Cats page
+
+![Cats page image](https://res.cloudinary.com/rails-licolsan-cloud/image/upload/v1575012377/git/cats.png)
+
+### Dogs page
+
+![Dog page image](https://res.cloudinary.com/rails-licolsan-cloud/image/upload/v1575012377/git/dogs.png)
